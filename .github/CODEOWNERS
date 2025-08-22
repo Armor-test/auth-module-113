@@ -1,0 +1,39 @@
+# CODEOWNERS file for auth-module-113
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-logging @Armor-test/squad-tooling @Armor-test/dept-notifications
+
+# Directory ownership
+/views/ @Armor-test/squad-product @Armor-test/grp-api
+/build/ @Armor-test/squad-api @Armor-test/dept-security
+/test/ @Armor-test/team-research @Armor-test/grp-ui @Armor-test/squad-ml
+/config/ @Armor-test/dept-notifications @Armor-test/squad-tooling @Armor-test/dept-reporting
+/models/ @Armor-test/squad-tooling @Armor-test/grp-payments @Armor-test/grp-api
+/auth/ @Armor-test/squad-ux @Armor-test/squad-payments @Armor-test/unit-design
+/middleware/ @Armor-test/team-security @Armor-test/dept-ui @Armor-test/unit-devops
+/static/ @Armor-test/grp-integration @Armor-test/dept-billing @Armor-test/unit-test
+/modules/ @Armor-test/squad-api @Armor-test/squad-research @Armor-test/squad-tooling
+/api/ @Armor-test/dept-test @Armor-test/team-frontend @Armor-test/dept-automation
+/common/ @Armor-test/team-notifications @Armor-test/squad-product
+/ui/ @Armor-test/dept-ui @Armor-test/squad-tooling
+/core/ @Armor-test/squad-mobile @Armor-test/unit-cloud
+
+# File type ownership
+*.py @Armor-test/unit-cloud @Armor-test/grp-search
+*.js @Armor-test/dept-data @Armor-test/unit-cloud @Armor-test/squad-qa
+*.sql @Armor-test/dept-release @Armor-test/squad-cloud @Armor-test/dept-ui
+*.cpp @Armor-test/grp-api @Armor-test/unit-devops @Armor-test/squad-cache
+*.toml @Armor-test/dept-data @Armor-test/squad-ux
+*.tf @Armor-test/dept-ui @Armor-test/team-notifications
+*.ts @Armor-test/dept-billing @Armor-test/grp-api @Armor-test/squad-mobile
+*.sh @Armor-test/grp-api @Armor-test/grp-reporting
+*.scss @Armor-test/squad-research @Armor-test/grp-integration @Armor-test/dept-identity
+*.gradle @Armor-test/grp-search @Armor-test/dept-ui
+*.cs @Armor-test/grp-payments @Armor-test/team-governance @Armor-test/dept-data
+*.java @Armor-test/squad-frontend @Armor-test/unit-design @Armor-test/grp-reporting
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
